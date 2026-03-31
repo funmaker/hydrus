@@ -1419,7 +1419,7 @@ mime_mimetype_string_lookup[ UNDETERMINED_WM ] = '{} or {}'.format( mime_mimetyp
 mime_mimetype_string_lookup[ UNDETERMINED_MP4 ] = '{} or {}'.format( mime_mimetype_string_lookup[ AUDIO_MP4 ], mime_mimetype_string_lookup[ VIDEO_MP4 ] )
 mime_mimetype_string_lookup[ UNDETERMINED_PNG ] = '{} or {}'.format( mime_mimetype_string_lookup[ IMAGE_PNG ], mime_mimetype_string_lookup[ ANIMATION_APNG ] )
 mime_mimetype_string_lookup[ UNDETERMINED_WEBP ] = 'image/webp, static or animated'
-mime_mimetype_string_lookup[ UNDETERMINED_WEBP ] = 'image/jxl, static or animated'
+mime_mimetype_string_lookup[ UNDETERMINED_JXL ] = 'image/jxl, static or animated'
 
 mime_ext_lookup = {
     APPLICATION_HYDRUS_CLIENT_COLLECTION : '.collection',
